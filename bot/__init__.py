@@ -594,8 +594,6 @@ if len(TITLE_NAME) == 0:
     TITLE_NAME = 'WeebZone'
 
 GD_INFO = environ.get('GD_INFO', '')
-if len(GD_INFO) == 0:
-    GD_INFO = 'Uploaded by WeebZone Mirror Bot'
 
 CREDIT_NAME = environ.get('CREDIT_NAME', '')
 if len(CREDIT_NAME) == 0:
